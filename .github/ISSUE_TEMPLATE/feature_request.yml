@@ -15,3 +15,17 @@ body:
       description: Describe the feature you are requesting
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Do any existing projects forked from DNA have this feature already built out?
+      description: Please link to the repo files and/or provide images of the completed feature if possible.
+  - type: textarea
+    attributes:
+      label: Does this feature exist in any other Shopify themes or sites?
+      description: Please link to the site and/or provide images of the completed feature if possible.
+  - type: textarea
+    attributes:
+      label: Is there any specific Shopify documentation that would help in building this feature?
+  - type: textarea
+    attributes:
+      label: Additional information
