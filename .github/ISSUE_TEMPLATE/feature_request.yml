@@ -28,4 +28,4 @@ body:
       label: Is there any specific Shopify documentation that would help in building this feature?
   - type: textarea
     attributes:
-      label: Additional information
+      label: Additional context
