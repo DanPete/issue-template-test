@@ -5,10 +5,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        A good example of an enhancement would be any feature that would improve the development speed or experience of DNA. This could be a new component, updated use of Shopify API, or an improvement to an existing feature.
+        Examples of enhancements could include:
+        - New components/features
+        - Improvements to existing features
+        - Updating existing code to use new Shopify API/Liquid features
   - type: textarea
     attributes:
       label: Feature Description
-      description:
+      description: Describe the feature you are requesting
     validations:
       required: true
