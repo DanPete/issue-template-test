@@ -5,11 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Examples of bugs could include:
-        - Issues with the functionality of existing components/features
-        - Accessibility issues
-        - Issues with the build process
-        - Issues with the documentation
+        Examples of bugs could include the following:
+        - Functionality of existing components/features
+        - Accessibility
+        - Build process
+        - Documentation
   - type: textarea
     attributes:
       label: Describe the bug
