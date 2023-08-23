@@ -1,6 +1,6 @@
 name: Feature Request
 description: Use this template for suggesting a DNA enhancement
-labels: ["template: enhancement"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
