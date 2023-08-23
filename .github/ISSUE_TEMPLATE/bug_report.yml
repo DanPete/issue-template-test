@@ -20,6 +20,10 @@ body:
     attributes:
       label: Steps to reproduce
       description: Please provide a detailed description of the steps taken to reproduce the bug.
+      value: |
+        1.
+        2.
+        3.
   - type: input
     attributes:
       label: Which browser are you using? (if relevant)
