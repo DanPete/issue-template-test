@@ -1,60 +1,29 @@
-# name: Bug Report
-# description: Use this template for reporting a bug
-# labels: ["bug"]
-# body:
-#   - type: markdown
-#     attributes:
-#       value: |
-#         Examples of bugs could include:
-#         - Issues with the functionality of existing components/features
-#         - Accessibility issues
-#         - Issues with the build process
-#         - Issues with the documentation
-#   - type: textarea
-#     attributes:
-#       label: Describe the bug
-#       description: Short description of the bug.
-#     validations:
-#       required: true
-#   - type: textarea
-#       attributes:
-#         label: Steps to reproduce
-#         description: Please provide a detailed description of the steps taken to reproduce the bug.
-#   - type: input
-#     attributes:
-#       label: Which browser are you using? (if relevant)
-#       description: Please specify the exact version if necessary.
-#   - type: textarea
-#     attributes:
-#       label: Additional context
 name: Bug Report
-description: Use this template for suggesting a DNA enhancement
-labels: ["enhancement"]
+description: Use this template for reporting a bug
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Examples of enhancements could include:
-        - New components/features
-        - Improvements to existing features
-        - Updating existing code to use new Shopify API/Liquid features
+        Examples of bugs could include:
+        - Issues with the functionality of existing components/features
+        - Accessibility issues
+        - Issues with the build process
+        - Issues with the documentation
   - type: textarea
     attributes:
-      label: Feature Description
-      description: Describe the feature you are requesting
+      label: Describe the bug
+      description: Short description of the bug.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Do any existing projects forked from DNA have this feature already built out?
-      description: Please link to the repo files and/or provide images of the completed feature if possible.
-  - type: textarea
+      label: Steps to reproduce
+      description: Please provide a detailed description of the steps taken to reproduce the bug.
+  - type: input
     attributes:
-      label: Does this feature exist in any other Shopify themes or sites?
-      description: Please link to the site and/or provide images of the completed feature if possible.
-  - type: textarea
-    attributes:
-      label: Is there any specific Shopify documentation that would help in building this feature?
+      label: Which browser are you using? (if relevant)
+      description: Please specify the exact version if necessary.
   - type: textarea
     attributes:
       label: Additional context
