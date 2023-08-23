@@ -1,0 +1,14 @@
+name: Feature Request
+description: Use this template for suggesting a DNA enhancement
+labels: ["template: enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A good example of an enhancement would be any feature that would improve the development speed or experience of DNA. This could be a new component, updated use of Shopify API, or an improvement to an existing feature.
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description:
+    validations:
+      required: true
