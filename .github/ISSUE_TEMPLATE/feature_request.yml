@@ -15,6 +15,25 @@ body:
       description: Describe the feature you are requesting
     validations:
       required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      multiple: true
+      options:
+        - High
+        - Medium
+        - Low
+  - type: dropdown
+    id: loe
+    attributes:
+      label: LOE (Level of Effort)
+      multiple: true
+      options:
+        - High
+        - Medium
+        - Low
+        - Unsure / Needs Discovery
   - type: textarea
     attributes:
       label: Do any existing projects forked from DNA have this feature already built out?

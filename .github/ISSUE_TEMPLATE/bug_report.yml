@@ -34,6 +34,7 @@ body:
         - High
         - Medium
         - Low
+        - Unsure / Needs Discovery
   - type: textarea
     attributes:
       label: Steps to reproduce
