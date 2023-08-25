@@ -1,0 +1,20 @@
+policy:
+  - section:
+      - id: [priority]
+        label:
+          - name: "priority: High"
+            keys: ["High"]
+          - name: "priority: Medium"
+            keys: ["Medium"]
+          - name: "priority: Low"
+            keys: ["Low"]
+      - id: [loe]
+        label:
+          - name: "loe: High"
+            keys: ["High"]
+          - name: "loe: Medium"
+            keys: ["Medium"]
+          - name: "loe: Low"
+            keys: ["Low"]
+          - name: "loe: Discovery"
+            keys: ["Unsure / Needs Discovery"]

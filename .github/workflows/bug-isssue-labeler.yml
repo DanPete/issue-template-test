@@ -27,9 +27,16 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/bug-report.yml
 
-      - name: Set labels based on severity field
+      - name: Set labels based on priority field
         uses: redhat-plumbers-in-action/advanced-issue-labeler@v2
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}
           section: priority
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set labels based on loe field
+        uses: redhat-plumbers-in-action/advanced-issue-labeler@v2
+        with:
+          issue-form: ${{ steps.issue-parser.outputs.jsonString }}
+          section: loe
           token: ${{ secrets.GITHUB_TOKEN }}
