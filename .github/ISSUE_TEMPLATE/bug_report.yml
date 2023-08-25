@@ -20,7 +20,6 @@ body:
     id: priority
     attributes:
       label: Priority
-      multiple: true
       options:
         - High
         - Medium
@@ -29,7 +28,6 @@ body:
     id: loe
     attributes:
       label: LOE (Level of Effort)
-      multiple: true
       options:
         - High
         - Medium
