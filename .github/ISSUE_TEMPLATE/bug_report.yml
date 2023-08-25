@@ -1,4 +1,4 @@
-name: Bug Report
+name: :bug: Bug Report
 description: Use this template for reporting a bug
 labels: ["bug"]
 body:
